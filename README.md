@@ -1,6 +1,8 @@
 # GAN-AEL
 the PyTorch implementation of paper: [Neural Response Generation via GAN with an Approximate Embedding Layer](http://www.aclweb.org/anthology/D/D17/D17-1065.pdf) Please refer to ###dev### branch to run the code.
+
 1.how to run this code?
+
 first:python toy.py -m pretrain -e 10 -tqf ./data/query_train.txt -trf ./data/response_train.txt -vqf ./data/query_valid.txt -vrf ./data/response_valid.txt --exp_dir ./model/
 
 second：python toy.py -m pretrain -e 10 -tqf ./data/query_train.txt -trf ./data/response_train.txt -vqf ./data/query_valid.txt -vrf ./data/response_valid.txt --exp_dir ./model/ -vf vocab.143695
